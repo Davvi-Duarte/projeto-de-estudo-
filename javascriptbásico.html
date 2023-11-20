@@ -1,0 +1,27 @@
+<html>
+    <script>
+        console.log("Olá mundo!")
+    </script>
+    <script>
+        console.log(1/0) //Tipo infinity, o JavaScript solta esse tipo "especial" para demonstrar infinidade, tem que tratar as ocasioes que ele aparece
+        console.log("A"/2) // Not a Number, quando não pode ser identificado como numero
+        console.log(null) //Ausência total de dados
+        console.log(undefined) //Não conseguiu identificar o valor de uma variável
+        
+        console.log({propriedade: "valor"}) //{} é um object
+        // Exemplo de um object
+        console.log({
+            nome: "Davvi",
+            idade: 22,
+            endereco: {
+                logradouro: "Casa",
+                rua: "Numero 5",
+                bairro: "Centro",
+            },
+        })
+
+        // Arrays
+        console.log([1,2,3])
+        console.log([1,"A",true, {nome: "Davvi", sobrenome: "Duarte"}])
+    </script>       
+</html>
