@@ -1,5 +1,5 @@
-// import { useState } from "react"; // forma correta
-const { useState } = React; // forma com o codepen.io
+import { useState } from "react"; // forma correta
+//const { useState } = React; // forma com o codepen.io
 
 const Topic = () => {
   const [votes, setVotes] = useState(0);
