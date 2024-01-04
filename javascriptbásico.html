@@ -35,11 +35,22 @@
         
     <script>
         // variáveis
-        var x // <-- tipo undefined
-        var y = 10
+        var x // (tipo undefined) acessível independentemente de escopos
+        let y = 10 // acessível apenas no escopo original ou quano declarada acima do escopo que quer ser acessado. caso o let seja criado em um escopo local, a instancia global não pode acessá-la
+        const w = 20 // acessível em diferentes contextos mas não pode ser alterada dentro do código pois é uma constante. Não pode assumir o tipo undefined.
+
         {
             console.log("y", y) //mesmo valor da variavel localizada no escopo global
         }
 
+        
     </script>
+    <script>
+        //Avançado em variaveis
+        
+
+    </script>
+    </html>
 </html>
+
+ 
